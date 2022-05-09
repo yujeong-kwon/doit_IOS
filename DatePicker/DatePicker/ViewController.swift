@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     let timeSelector: Selector = #selector(ViewController.updateTime)
     let interval = 1.0
-    var count = 0
+    var count = 0 
     
     @IBOutlet var lblCurrentTime: UILabel!
     @IBOutlet var lblPickerTime: UILabel!
