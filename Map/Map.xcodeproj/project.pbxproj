@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C703DE4328314A1E00C4EE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703DE4228314A1E00C4EE27 /* AppDelegate.swift */; };
-		C703DE4528314A1E00C4EE27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703DE4428314A1E00C4EE27 /* SceneDelegate.swift */; };
-		C703DE4728314A1E00C4EE27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703DE4628314A1E00C4EE27 /* ViewController.swift */; };
-		C703DE4A28314A1E00C4EE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C703DE4828314A1E00C4EE27 /* Main.storyboard */; };
-		C703DE4C28314A1F00C4EE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C703DE4B28314A1F00C4EE27 /* Assets.xcassets */; };
-		C703DE4F28314A1F00C4EE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C703DE4D28314A1F00C4EE27 /* LaunchScreen.storyboard */; };
-		C703DE572831524C00C4EE27 /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = C703DE562831524C00C4EE27 /* htmlView.html */; };
+		C76A678C28327934008CF0AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A678B28327934008CF0AE /* AppDelegate.swift */; };
+		C76A678E28327934008CF0AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A678D28327934008CF0AE /* SceneDelegate.swift */; };
+		C76A679028327934008CF0AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A678F28327934008CF0AE /* ViewController.swift */; };
+		C76A679328327934008CF0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76A679128327934008CF0AE /* Main.storyboard */; };
+		C76A679528327935008CF0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76A679428327935008CF0AE /* Assets.xcassets */; };
+		C76A679828327935008CF0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76A679628327935008CF0AE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C703DE3F28314A1E00C4EE27 /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C703DE4228314A1E00C4EE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C703DE4428314A1E00C4EE27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C703DE4628314A1E00C4EE27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C703DE4928314A1E00C4EE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C703DE4B28314A1F00C4EE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C703DE4E28314A1F00C4EE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C703DE5028314A1F00C4EE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C703DE562831524C00C4EE27 /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
+		C76A678828327934008CF0AE /* Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76A678B28327934008CF0AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C76A678D28327934008CF0AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C76A678F28327934008CF0AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C76A679228327934008CF0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C76A679428327935008CF0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C76A679728327935008CF0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C76A679928327935008CF0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C703DE3C28314A1E00C4EE27 /* Frameworks */ = {
+		C76A678528327934008CF0AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C703DE3628314A1E00C4EE27 = {
+		C76A677F28327934008CF0AE = {
 			isa = PBXGroup;
 			children = (
-				C703DE4128314A1E00C4EE27 /* WebView */,
-				C703DE4028314A1E00C4EE27 /* Products */,
+				C76A678A28327934008CF0AE /* Map */,
+				C76A678928327934008CF0AE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C703DE4028314A1E00C4EE27 /* Products */ = {
+		C76A678928327934008CF0AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C703DE3F28314A1E00C4EE27 /* WebView.app */,
+				C76A678828327934008CF0AE /* Map.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C703DE4128314A1E00C4EE27 /* WebView */ = {
+		C76A678A28327934008CF0AE /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				C703DE4228314A1E00C4EE27 /* AppDelegate.swift */,
-				C703DE4428314A1E00C4EE27 /* SceneDelegate.swift */,
-				C703DE4628314A1E00C4EE27 /* ViewController.swift */,
-				C703DE4828314A1E00C4EE27 /* Main.storyboard */,
-				C703DE562831524C00C4EE27 /* htmlView.html */,
-				C703DE4B28314A1F00C4EE27 /* Assets.xcassets */,
-				C703DE4D28314A1F00C4EE27 /* LaunchScreen.storyboard */,
-				C703DE5028314A1F00C4EE27 /* Info.plist */,
+				C76A678B28327934008CF0AE /* AppDelegate.swift */,
+				C76A678D28327934008CF0AE /* SceneDelegate.swift */,
+				C76A678F28327934008CF0AE /* ViewController.swift */,
+				C76A679128327934008CF0AE /* Main.storyboard */,
+				C76A679428327935008CF0AE /* Assets.xcassets */,
+				C76A679628327935008CF0AE /* LaunchScreen.storyboard */,
+				C76A679928327935008CF0AE /* Info.plist */,
 			);
-			path = WebView;
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C703DE3E28314A1E00C4EE27 /* WebView */ = {
+		C76A678728327934008CF0AE /* Map */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C703DE5328314A1F00C4EE27 /* Build configuration list for PBXNativeTarget "WebView" */;
+			buildConfigurationList = C76A679C28327935008CF0AE /* Build configuration list for PBXNativeTarget "Map" */;
 			buildPhases = (
-				C703DE3B28314A1E00C4EE27 /* Sources */,
-				C703DE3C28314A1E00C4EE27 /* Frameworks */,
-				C703DE3D28314A1E00C4EE27 /* Resources */,
+				C76A678428327934008CF0AE /* Sources */,
+				C76A678528327934008CF0AE /* Frameworks */,
+				C76A678628327934008CF0AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WebView;
-			productName = WebView;
-			productReference = C703DE3F28314A1E00C4EE27 /* WebView.app */;
+			name = Map;
+			productName = Map;
+			productReference = C76A678828327934008CF0AE /* Map.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C703DE3728314A1E00C4EE27 /* Project object */ = {
+		C76A678028327934008CF0AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					C703DE3E28314A1E00C4EE27 = {
+					C76A678728327934008CF0AE = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = C703DE3A28314A1E00C4EE27 /* Build configuration list for PBXProject "WebView" */;
+			buildConfigurationList = C76A678328327934008CF0AE /* Build configuration list for PBXProject "Map" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = C703DE3628314A1E00C4EE27;
-			productRefGroup = C703DE4028314A1E00C4EE27 /* Products */;
+			mainGroup = C76A677F28327934008CF0AE;
+			productRefGroup = C76A678928327934008CF0AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C703DE3E28314A1E00C4EE27 /* WebView */,
+				C76A678728327934008CF0AE /* Map */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C703DE3D28314A1E00C4EE27 /* Resources */ = {
+		C76A678628327934008CF0AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C703DE572831524C00C4EE27 /* htmlView.html in Resources */,
-				C703DE4F28314A1F00C4EE27 /* LaunchScreen.storyboard in Resources */,
-				C703DE4C28314A1F00C4EE27 /* Assets.xcassets in Resources */,
-				C703DE4A28314A1E00C4EE27 /* Main.storyboard in Resources */,
+				C76A679828327935008CF0AE /* LaunchScreen.storyboard in Resources */,
+				C76A679528327935008CF0AE /* Assets.xcassets in Resources */,
+				C76A679328327934008CF0AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C703DE3B28314A1E00C4EE27 /* Sources */ = {
+		C76A678428327934008CF0AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C703DE4728314A1E00C4EE27 /* ViewController.swift in Sources */,
-				C703DE4328314A1E00C4EE27 /* AppDelegate.swift in Sources */,
-				C703DE4528314A1E00C4EE27 /* SceneDelegate.swift in Sources */,
+				C76A679028327934008CF0AE /* ViewController.swift in Sources */,
+				C76A678C28327934008CF0AE /* AppDelegate.swift in Sources */,
+				C76A678E28327934008CF0AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C703DE4828314A1E00C4EE27 /* Main.storyboard */ = {
+		C76A679128327934008CF0AE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C703DE4928314A1E00C4EE27 /* Base */,
+				C76A679228327934008CF0AE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C703DE4D28314A1F00C4EE27 /* LaunchScreen.storyboard */ = {
+		C76A679628327935008CF0AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C703DE4E28314A1F00C4EE27 /* Base */,
+				C76A679728327935008CF0AE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C703DE5128314A1F00C4EE27 /* Debug */ = {
+		C76A679A28327935008CF0AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		C703DE5228314A1F00C4EE27 /* Release */ = {
+		C76A679B28327935008CF0AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,7 +282,7 @@
 			};
 			name = Release;
 		};
-		C703DE5428314A1F00C4EE27 /* Debug */ = {
+		C76A679D28327935008CF0AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -295,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MUPBPQFU7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WebView/Info.plist;
+				INFOPLIST_FILE = Map/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.WebView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Map;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		C703DE5528314A1F00C4EE27 /* Release */ = {
+		C76A679E28327935008CF0AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6MUPBPQFU7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WebView/Info.plist;
+				INFOPLIST_FILE = Map/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.WebView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Map;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C703DE3A28314A1E00C4EE27 /* Build configuration list for PBXProject "WebView" */ = {
+		C76A678328327934008CF0AE /* Build configuration list for PBXProject "Map" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C703DE5128314A1F00C4EE27 /* Debug */,
-				C703DE5228314A1F00C4EE27 /* Release */,
+				C76A679A28327935008CF0AE /* Debug */,
+				C76A679B28327935008CF0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C703DE5328314A1F00C4EE27 /* Build configuration list for PBXNativeTarget "WebView" */ = {
+		C76A679C28327935008CF0AE /* Build configuration list for PBXNativeTarget "Map" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C703DE5428314A1F00C4EE27 /* Debug */,
-				C703DE5528314A1F00C4EE27 /* Release */,
+				C76A679D28327935008CF0AE /* Debug */,
+				C76A679E28327935008CF0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C703DE3728314A1E00C4EE27 /* Project object */;
+	rootObject = C76A678028327934008CF0AE /* Project object */;
 }
