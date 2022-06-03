@@ -113,12 +113,22 @@
                                     <action selector="swImageOnOff:" destination="hW7-GW-221" eventType="valueChanged" id="YrQ-qB-L6P"/>
                                 </connections>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kG-If-HLz">
+                                <rect key="frame" x="211" y="293" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="확대"/>
+                                <connections>
+                                    <action selector="btnResizeImage:" destination="hW7-GW-221" eventType="touchUpInside" id="x3K-PV-Zvg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s6U-eM-quQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="수정화면" id="da2-ay-dJp"/>
                     <connections>
+                        <outlet property="btnResize" destination="5kG-If-HLz" id="PpB-lp-T00"/>
                         <outlet property="lblWay" destination="3sz-yD-8dM" id="4nG-v5-JiE"/>
                         <outlet property="swIsOn" destination="2GD-JF-dcY" id="Nda-G9-JRK"/>
                         <outlet property="txMessage" destination="LPE-gR-A7p" id="IBd-hO-yfr"/>
