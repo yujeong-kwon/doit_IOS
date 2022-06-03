@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C78EEF4E284A076100E9B17D /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = C78EEF4C284A076100E9B17D /* lamp_off.png */; };
+		C78EEF4F284A076100E9B17D /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C78EEF4D284A076100E9B17D /* lamp_on.png */; };
 		C7F70BA4283AA8200041B78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F70BA3283AA8200041B78A /* AppDelegate.swift */; };
 		C7F70BA6283AA8200041B78A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F70BA5283AA8200041B78A /* SceneDelegate.swift */; };
 		C7F70BA8283AA8200041B78A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F70BA7283AA8200041B78A /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C78EEF4C284A076100E9B17D /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		C78EEF4D284A076100E9B17D /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 		C7F70BA0283AA8200041B78A /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F70BA3283AA8200041B78A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7F70BA5283AA8200041B78A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		C7F70BA2283AA8200041B78A /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				C78EEF4C284A076100E9B17D /* lamp_off.png */,
+				C78EEF4D284A076100E9B17D /* lamp_on.png */,
 				C7F70BA3283AA8200041B78A /* AppDelegate.swift */,
 				C7F70BA5283AA8200041B78A /* SceneDelegate.swift */,
 				C7F70BA7283AA8200041B78A /* ViewController.swift */,
@@ -130,7 +136,9 @@
 			files = (
 				C7F70BB0283AA8210041B78A /* LaunchScreen.storyboard in Resources */,
 				C7F70BAD283AA8210041B78A /* Assets.xcassets in Resources */,
+				C78EEF4F284A076100E9B17D /* lamp_on.png in Resources */,
 				C7F70BAB283AA8200041B78A /* Main.storyboard in Resources */,
+				C78EEF4E284A076100E9B17D /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
