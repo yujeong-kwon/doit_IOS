@@ -62,16 +62,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Play"/>
+                                                <connections>
+                                                    <action selector="btnPlayAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QH7-zz-fI1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lng-1n-Oxf">
                                                 <rect key="frame" x="95" y="0.0" width="42" height="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Pause"/>
+                                                <connections>
+                                                    <action selector="btnPauseAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3iE-J2-nDW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0g-1m-Nna">
                                                 <rect key="frame" x="202" y="0.0" width="32" height="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Stop"/>
+                                                <connections>
+                                                    <action selector="btnStopAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j0M-EM-vyG"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -89,6 +98,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="220" id="zHS-sp-da5"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="slChangeVolume:" destination="BYZ-38-t0r" eventType="valueChanged" id="9dy-55-52I"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                     </stackView>
@@ -102,6 +114,15 @@
                             <constraint firstItem="1oh-d4-jeV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="7XC-33-Sf2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnPause" destination="Lng-1n-Oxf" id="Fxq-af-HiZ"/>
+                        <outlet property="btnPlay" destination="JFx-em-lZX" id="Uy1-Y8-V5h"/>
+                        <outlet property="btnStop" destination="l0g-1m-Nna" id="CpA-e5-Xx9"/>
+                        <outlet property="lblCurrentTime" destination="T6G-XS-oj7" id="AHv-Ws-G3s"/>
+                        <outlet property="lblEndTime" destination="fwQ-aH-Q6Y" id="Y4L-CU-ajU"/>
+                        <outlet property="pvProgressPlay" destination="Qow-be-rnA" id="WZo-je-Fgp"/>
+                        <outlet property="slVolume" destination="BqD-x9-D45" id="u1R-ga-2Dp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

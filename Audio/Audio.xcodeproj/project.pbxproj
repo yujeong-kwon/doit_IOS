@@ -13,6 +13,7 @@
 		C79C0C9B284B2500004A2015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79C0C99284B2500004A2015 /* Main.storyboard */; };
 		C79C0C9D284B2501004A2015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79C0C9C284B2501004A2015 /* Assets.xcassets */; };
 		C79C0CA0284B2501004A2015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79C0C9E284B2501004A2015 /* LaunchScreen.storyboard */; };
+		C79C0CA8284B727A004A2015 /* Sicilian_Breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C79C0CA7284B727A004A2015 /* Sicilian_Breeze.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C79C0C9C284B2501004A2015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C79C0C9F284B2501004A2015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C79C0CA1284B2501004A2015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79C0CA7284B727A004A2015 /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C79C0C9C284B2501004A2015 /* Assets.xcassets */,
 				C79C0C9E284B2501004A2015 /* LaunchScreen.storyboard */,
 				C79C0CA1284B2501004A2015 /* Info.plist */,
+				C79C0CA7284B727A004A2015 /* Sicilian_Breeze.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79C0CA0284B2501004A2015 /* LaunchScreen.storyboard in Resources */,
+				C79C0CA8284B727A004A2015 /* Sicilian_Breeze.mp3 in Resources */,
 				C79C0C9D284B2501004A2015 /* Assets.xcassets in Resources */,
 				C79C0C9B284B2500004A2015 /* Main.storyboard in Resources */,
 			);
