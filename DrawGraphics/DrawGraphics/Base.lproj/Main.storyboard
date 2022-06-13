@@ -23,7 +23,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nee-hR-8O5">
-                                                <rect key="frame" x="0.0" y="0.0" width="71.666666666666671" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="59.666666666666664" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="Rcd-T1-KaL"/>
                                                 </constraints>
@@ -34,7 +34,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1m-DF-A9e">
-                                                <rect key="frame" x="71.666666666666657" y="0.0" width="71.666666666666657" height="40"/>
+                                                <rect key="frame" x="59.666666666666671" y="0.0" width="59.666666666666671" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="9L4-At-tDA"/>
                                                 </constraints>
@@ -45,7 +45,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xB-QM-Die">
-                                                <rect key="frame" x="143.33333333333334" y="0.0" width="71.333333333333343" height="40"/>
+                                                <rect key="frame" x="119.33333333333336" y="0.0" width="59.666666666666671" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="Blj-7H-4ua"/>
                                                 </constraints>
@@ -56,7 +56,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e15-h8-x9a">
-                                                <rect key="frame" x="214.66666666666666" y="0.0" width="71.666666666666657" height="40"/>
+                                                <rect key="frame" x="179" y="0.0" width="59.666666666666657" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="Gow-z3-s1u"/>
                                                 </constraints>
@@ -67,7 +67,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7X1-Y6-oc7">
-                                                <rect key="frame" x="286.33333333333331" y="0.0" width="71.666666666666686" height="40"/>
+                                                <rect key="frame" x="238.66666666666666" y="0.0" width="59.666666666666657" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="YnO-sK-8PE"/>
                                                 </constraints>
@@ -75,6 +75,18 @@
                                                 <state key="normal" title="채우기"/>
                                                 <connections>
                                                     <action selector="btnDrawFill:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVy-2q-vnp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofI-ug-nHq">
+                                                <rect key="frame" x="298.33333333333331" y="0.0" width="59.666666666666686" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="ADG-f1-eVA"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="꽃"/>
+                                                <connections>
+                                                    <action selector="btnDrawFill:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NcF-bf-3Fe"/>
+                                                    <action selector="btnDrawFlower:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t9o-sU-pyc"/>
                                                 </connections>
                                             </button>
                                         </subviews>
