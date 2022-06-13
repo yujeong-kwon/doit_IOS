@@ -12,8 +12,15 @@ class ViewController: UIViewController {
     @IBOutlet var imgView: UIImageView!
     @IBOutlet var pageControl: UIPageControl!
     
+    var initImgWidth: CGFloat!, initImgHeight: CGFloat!
+    var initImgOrigin: CGPoint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        initImgWidth = imgView.frame.width
+        initImgHeight = imgView.frame.height
+        initImgOrigin = imgView.frame.origin
+        
         // Do any additional setup after loading the view.
         pageControl.numberOfPages = images.count
         pageControl.currentPage = 0
@@ -28,10 +35,17 @@ class ViewController: UIViewController {
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture(_:)))
         swipeRight.direction = UISwipeGestureRecognizer.Direction.right
         self.view.addGestureRecognizer(swipeRight)
+        
+        let pinch = UIPinchGestureRecognizer(target: self, action: #selector(ViewController.doPinch(_:)))
+        self.view.addGestureRecognizer(pinch)
     }
 
     @IBAction func pageChange(_ sender: UIPageControl) {
+        imgView.frame.origin = initImgOrigin
+        imgView.frame.size = CGSize(width: initImgWidth, height: initImgHeight)
+        
         imgView.image = UIImage(named: images[pageControl.currentPage])
+        
     }
     
     @objc func respondToSwipeGesture(_ gesture:  UIGestureRecognizer){
@@ -48,8 +62,16 @@ class ViewController: UIViewController {
             default:
                 break
             }
+            imgView.frame.origin = initImgOrigin
+            imgView.frame.size = CGSize(width: initImgWidth, height: initImgHeight)
             imgView.image = UIImage(named: images[pageControl.currentPage])
         }
+    
+    }
+    
+    @objc func doPinch(_ pinch: UIPinchGestureRecognizer){
+        imgView.transform = imgView.transform.scaledBy(x: pinch.scale, y: pinch.scale)
+        pinch.scale = 1
     }
 }
 
